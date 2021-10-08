@@ -1,0 +1,123 @@
+/* h1 {
+    position: relative;
+    top: 200px;
+} */
+
+#ota {
+    height: 40vh;
+    background: rgba(224, 5, 5, 0.781);
+    /* position: relative; */
+    position: sticky;
+    top: 0;
+}
+
+body {
+    /* padding-top: 100px; */
+}
+
+#bola {
+    background: green;
+    padding: 30px;
+    font-size: 40px;
+    width: 100%;
+    /* static = default  */
+    /* position: static; */
+    /* position: relative = uzining turgan joyi; */
+    /* position: relative; */
+    /* top: -50px; */
+    /* top: 0; */
+    /* left: 50px; */
+    /* right: 100px; */
+    /* bottom: 120px; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* bottom: 0; */
+    /* position: fixed; */
+    /* top: 0;
+    left: 0; */
+    /* position: sticky; */
+    /* top: 0; */
+    /* bottom: 40px; */
+}
+
+/* #bola2 {
+    position: sticky;
+    top: 0;
+    background: rgb(26, 39, 26);
+    padding: 30px;
+    font-size: 40px;
+    width: 100%;
+} */
+
+#fixed1 {
+    background: green;
+    padding: 20px;
+    top: 5px;
+    position: fixed;
+    width: 200px;
+    height: 300px;
+    z-index: 1;
+}
+
+#fixed2 {
+    background: rgb(110, 117, 110);
+    padding: 20px;
+    top: 40px;
+    position: fixed;
+    width: 200px;
+    height: 300px;
+    z-index: 2;
+}
+
+#fixed3 {
+    background: green;
+    padding: 20px;
+    top: 80px;
+    position: fixed;
+    width: 200px;
+    height: 300px;
+    z-index: 1000;
+}
+
+#fixed4 {
+    background: rgb(109, 110, 109);
+    padding: 20px;
+    top: 120px;
+    position: fixed;
+    width: 200px;
+    height: 300px;
+    z-index: 1000;
+}
+
+#flex {
+    display: flex;
+}
+
+#flex div {
+    padding: 20px;
+    background: rgba(224, 5, 5, 0.781);
+}
+
+#flex div:nth-child(1) {
+    z-index: 3;
+}
+
+#flex div:nth-child(2) {
+    /* margin-left: -20px; */
+    /* z-index: 3; */
+    /* background: blue; */
+}
+
+#background {
+    /* height: 50vh;
+    padding: 100px; */
+    /* background-color: blue; */
+    /* background: linear-gradient(35deg, rgb(86, 86, 129) 50%, red 80%); */
+    /* background: linear-gradient(90deg, rgb(86, 86, 129), red);
+     */
+    /* background: linear-gradient(75deg, rgb(86, 86, 129), red, green, brown, yellow, indigo); */
+    /* background: radial-gradient(circle, yellow, red, green, brown, yellow); */
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-image: linear-gradient(to bottom, #d744d9, #ff4d88, #ef805c, #caa76591, #b1be95);
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+}
